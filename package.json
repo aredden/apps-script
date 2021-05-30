@@ -1,0 +1,21 @@
+{
+  "name": "sheet-utils",
+  "description": "- [Sheet Utils](#sheet-utils)   - [Setup](#setup)",
+  "version": "1.0.0",
+  "main": "App.ts",
+  "author": "Alex Redden",
+  "license": "ISC",
+  "scripts": {
+    "push": "clasp push",
+    "config": "clasp login && clasp login --creds creds.json",
+    "logger": "clasp logs --watch",
+    "start": "clasp run",
+    "dev": "clasp push && clasp run"
+  },
+  "dependencies": {
+    "@types/google-apps-script": "^1.0.33"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.2"
+  }
+}
