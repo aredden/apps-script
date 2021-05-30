@@ -38,9 +38,11 @@ I provided several scripts.
 ```
 .
 ├── App.ts
+├── .clasp.json <----- specific to your project
+├── .clasprc.json <--- local login files generated from the "clasp login --creds creds.json"
 ├── README.md
 ├── appsscript.json
-├── creds.json
+├── creds.json <------ from GCP desktop app credentials.
 ├── env.ts
 ├── node_modules
 ├── package-lock.json
